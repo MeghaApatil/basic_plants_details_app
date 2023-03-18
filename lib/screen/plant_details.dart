@@ -13,7 +13,7 @@ class ItemDetails extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(flowers.name),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.green[700],
       ),
       body: SingleChildScrollView(
         child: Padding(
